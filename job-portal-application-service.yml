@@ -18,7 +18,7 @@ spring:
     #url: jdbc:postgresql://localhost:5432/yt_job_portal_application
     username: root
     password: system
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
 
     #driver-class-name: org.postgresql.Driver
 
