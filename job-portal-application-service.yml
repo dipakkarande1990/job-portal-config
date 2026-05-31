@@ -14,7 +14,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
 
   datasource:
-    url: jdbc:mysql://localhost:3307/yt_job_portal_application?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3307/yt_job_portal_application
     #url: jdbc:postgresql://localhost:5432/yt_job_portal_application
     username: root
     password: system
