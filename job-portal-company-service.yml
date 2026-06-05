@@ -11,15 +11,13 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        dialect: org.hibernate.dialect.MySQLDialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
   datasource:
-    url: jdbc:mysql://localhost:3307/yt_job_portal_company?createDatabaseIfNotExist=true
-
-    #url: jdbc:postgresql://localhost:5432/yt_job_portal_company
-    username: root
+    url: jdbc:postgresql://localhost:5432/yt_job_portal_company
+    username: postgres
     password: system
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
 
 eureka:
   client:
